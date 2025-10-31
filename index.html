@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boston.com — Retro 2000 Edition</title>
+  <style>
+    body { margin:0; padding:0; background:#c5cde6; font-family: Arial, Helvetica, sans-serif; font-size: 11pt; }
+    a { color:#0000cc; }
+    a:visited { color:#660099; }
+    /* Header */
+    .bday { background:#fff; text-align:center; border-bottom:2px solid #000066; }
+    .bday-inner { padding:12px 8px; display:inline-block; }
+    .bday h1 { display:inline-block; margin:0 10px; color:#cc0000; font-size:18pt; font-weight:bold; vertical-align:middle; }
+    .bday img { width:90px; height:auto; vertical-align:middle; }
+    .masthead { background:#fff; }
+    .mast-row { border-bottom:1px solid #999; }
+    .mast-cell { padding:6px 10px; font-size:9pt; }
+    .logo-area { text-align:center; padding:12px 0; }
+    .logo { max-width:340px; height:auto; }
+    .bluebar { background:#000066; color:#fff; text-align:center; font-weight:bold; letter-spacing:2px; padding:5px 10px; font-size:9pt; }
+    /* Layout */
+    .page { width:100%; border-collapse:collapse; }
+    .left-rail { width:220px; vertical-align:top; background:#fff; border-right:2px solid #000066; }
+    .center-well { vertical-align:top; background:#fff; }
+    .right-rail { width:260px; vertical-align:top; background:#fff; border-left:2px solid #000066; }
+    /* Left rail */
+    .lr-section { border-bottom:1px solid #ccc; padding:8px 10px; }
+    .lr-title { color:#000; font-weight:bold; font-size:10pt; margin-bottom:4px; }
+    .lr-link { display:block; font-size:9pt; text-decoration:underline; margin:3px 0; }
+    /* Center well */
+    .dateline { background:#000066; color:#fff; padding:4px 8px; font-weight:bold; font-size:10pt; letter-spacing:1px; }
+    .well { padding:12px; }
+    .loadingbar { background:#0b2d7a; color:#fff; text-align:center; padding:6px; font-weight:bold; font-size:10pt; margin-bottom:10px; }
+    .section-hdr { background:#0b2d7a; color:#fff; padding:6px 10px; font-size:11pt; font-weight:bold; border-left:6px solid #1a43a0; margin:10px 0; }
+    .lead { border-bottom:1px solid #ccc; margin-bottom:10px; padding-bottom:10px; }
+    .lead h2 { font-size:16pt; margin:0 0 6px; }
+    .lead h2 a { color:#0000cc; text-decoration:underline; }
+    .lead .dek { font-size:10pt; line-height:1.4; color:#000; }
+    .list li { margin:6px 0; }
+    .meta { font-size:8pt; color:#666; font-style:italic; }
+    .error { background:#ffeeee; border:1px solid #cc0000; padding:12px; color:#cc0000; margin:10px 0; }
+    /* Right rail boxes */
+    .box { border:1px solid #999; margin:10px; }
+    .box-h { background:#e8e8f6; border-bottom:1px solid #999; padding:6px 8px; font-weight:bold; font-size:10pt; }
+    .box-b { padding:8px; font-size:9pt; }
+    .small { font-size:9pt; }
+    .footer { font-size:8pt; color:#666; text-align:center; padding:18px 10px; }
+  </style>
+</head>
+<body>
+  <!-- Birthday banner -->
+  <div class="bday">
+    <div class="bday-inner">
+      <img src="https://i.imgur.com/WW2lB0B.gif" alt="Birthday Cake">
+      <h1>Happy Birthday Boston.com!!!!</h1>
+      <img src="https://i.imgur.com/WW2lB0B.gif" alt="Birthday Cake">
+    </div>
+  </div>
+
+  <!-- Masthead rows -->
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" class="masthead">
+    <tr class="mast-row">
+      <td class="mast-cell"><b>Boston.com</b> was last updated at <span id="update-time">loading...</span></td>
+    </tr>
+    <tr>
+      <td class="logo-area">
+        <a href="index.html"><img class="logo" src="https://i.imgur.com/YEWE5l7.gif" alt="Boston.com"></a>
+      </td>
+    </tr>
+  </table>
+
+  <div class="bluebar" id="current-date">LOADING...</div>
+
+  <!-- Three-column table layout -->
+  <table class="page" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <!-- Left Rail -->
+      <td class="left-rail">
+        <div class="lr-section">
+          <div class="lr-title">SECTIONS</div>
+          <a class="lr-link" target="_blank" href="https://www.boston.com/">Home</a>
+          <a class="lr-link" target="_blank" href="https://www.boston.com/category/news/">News</a>
+          <a class="lr-link" target="_blank" href="https://www.boston.com/category/sports/">Sports</a>
+          <a class="lr-link" target="_blank" href="https://www.boston.com/category/weather/">Weather</a>
+          <a class="lr-link" target="_blank" href="https://www.boston.com/category/real-estate/">Real Estate</a>
+          <a class="lr-link" target="_blank" href="https://www.boston.com/category/food/">Food</a>
+          <a class="lr-link" target="_blank" href="https://www.boston.com/category/love-letters/">Love Letters</a>
+          <a class="lr-link" target="_blank" href="https://www.boston.com/category/culture/">Culture</a>
+          <a class="lr-link" target="_blank" href="https://www.boston.com/category/things-to-do/">Things To Do</a>
+          <a class="lr-link" target="_blank" href="https://www.boston.com/category/travel/">Travel</a>
+          <a class="lr-link" target="_blank" href="https://www.boston.com/category/community/">Community</a>
+          <a class="lr-link" target="_blank" href="https://www.boston.com/category/extra/">Extra</a>
+          <a class="lr-link" target="_blank" href="https://www.boston.com/category/weddings/">Weddings</a>
+          <a class="lr-link" target="_blank" href="https://www.boston.com/category/cars/">Cars</a>
+        </div>
+      </td>
+
+      <!-- Center Well -->
+      <td class="center-well">
+        <div class="dateline" id="dateline">LOADING…</div>
+        <div class="well">
+          <div class="loadingbar">LOADING…</div>
+          <div class="section-hdr">LATEST NEWS FROM BOSTON.COM</div>
+          <div id="lead" class="lead" style="display:none;">
+            <h2 id="lead-h"></h2>
+            <div class="dek" id="lead-d"></div>
+            <div class="meta" id="lead-m"></div>
+          </div>
+          <ul id="list" class="list"></ul>
+          <div id="error" class="error" style="display:none;">Unable to load articles. The RSS feed may not have been fetched yet. Please check back shortly.</div>
+        </div>
+      </td>
+
+      <!-- Right Rail -->
+      <td class="right-rail">
+        <div class="box">
+          <div class="box-h">Home Delivery Special</div>
+          <div class="box-b">Get the Globe delivered. <a href="https://subscribe.bostonglobe.com/B8583/" target="_blank" rel="noopener">Subscribe</a>.</div>
+        </div>
+        <div class="box">
+          <div class="box-h">Sports (latest)</div>
+          <div class="box-b">
+            <ul id="sports-list" style="padding-left:18px; margin:0;"></ul>
+            <div id="sports-error" class="small" style="color:#990000; display:none; margin-top:6px;">Unable to load sports headlines.</div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-h">B‑Side</div>
+          <div class="box-b">
+            <a class="small" href="https://bside.beehiiv.com/p/why-gen-z-is-buying-spells-online" target="_blank" rel="noopener">🧙😳 Why Gen Z is buying <em>spells</em> online</a><br>
+            <a class="small" href="https://bside.beehiiv.com/p/this-restaurant-feeds-you-twice-91cc" target="_blank" rel="noopener">🤑🍔 This restaurant feeds you TWICE</a>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </table>
+
+  <div class="footer">© Boston.com — Retro demo for 30th Birthday</div>
+
+  <script>
+    // Date strips
+    const days = ['SUNDAY','MONDAY','TUESDAY','WEDNESDAY','THURSDAY','FRIDAY','SATURDAY'];
+    const months = ['JANUARY','FEBRUARY','MARCH','APRIL','MAY','JUNE','JULY','AUGUST','SEPTEMBER','OCTOBER','NOVEMBER','DECEMBER'];
+    const now = new Date();
+    document.getElementById('current-date').textContent = days[now.getDay()]+', '+months[now.getMonth()]+' '+now.getDate()+', '+now.getFullYear();
+    document.getElementById('dateline').textContent = days[now.getDay()]+', '+months[now.getMonth()]+' '+now.getDate()+', '+now.getFullYear();
+
+    function stripHtml(html) {
+      const tmp = document.createElement('div');
+      tmp.innerHTML = html || '';
+      return tmp.textContent || tmp.innerText || '';
+    }
+    function fmt(dateStr){
+      const d = new Date(dateStr);
+      if (isNaN(d.getTime())) return '';
+      return d.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});
+    }
+
+    async function loadMain() {
+      const lead = document.getElementById('lead');
+      const lh = document.getElementById('lead-h');
+      const ld = document.getElementById('lead-d');
+      const lm = document.getElementById('lead-m');
+      const list = document.getElementById('list');
+      const err = document.getElementById('error');
+
+      try {
+        const res = await fetch('articles.json?' + Date.now());
+        const data = await res.json();
+
+        if (!data || !data.articles || !data.articles.length) throw new Error('no articles');
+
+        // Update updated time
+        if (data.lastUpdated) {
+          const t = new Date(data.lastUpdated);
+          const ok = !isNaN(t.getTime());
+          document.getElementById('update-time').textContent = ok ? t.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'}) : 'recently';
+        }
+
+        // Lead is first article
+        const first = data.articles[0];
+        lead.style.display = 'block';
+        lh.innerHTML = '<a href="article.html?link='+encodeURIComponent(first.link)+'">'+first.title+'</a>';
+        ld.textContent = stripHtml(first.description||'');
+        lm.textContent = fmt(first.pubDate);
+
+        // Rest list
+        list.innerHTML = '';
+        data.articles.slice(1, 25).forEach(a => {
+          const li = document.createElement('li');
+          const desc = stripHtml(a.description||'').substring(0,180);
+          li.innerHTML = '<a href="article.html?link='+encodeURIComponent(a.link)+'">'+a.title+'</a>'
+            + (desc ? ' — <span class="small">'+desc+(desc.length>170?'…':'')+'</span>' : '')
+            + (a.pubDate ? ' <span class="meta">('+fmt(a.pubDate)+')</span>': '');
+          list.appendChild(li);
+        });
+
+        err.style.display = 'none';
+      } catch (e) {
+        console.error(e);
+        err.style.display = 'block';
+      }
+    }
+
+    async function loadSports() {
+      const ul = document.getElementById('sports-list');
+      const err = document.getElementById('sports-error');
+      try {
+        const res = await fetch('sports.json?' + Date.now());
+        const data = await res.json();
+        if (!data || !data.articles || !data.articles.length) throw new Error('no sports');
+        ul.innerHTML = '';
+        data.articles.slice(0,8).forEach(a => {
+          const li = document.createElement('li');
+          li.style.margin = '4px 0';
+          li.innerHTML = '<a href="article.html?link='+encodeURIComponent(a.link)+'">'+a.title+'</a>';
+          ul.appendChild(li);
+        });
+        err.style.display = 'none';
+      } catch(e) {
+        console.error(e);
+        err.style.display = 'block';
+      }
+    }
+
+    loadMain();
+    loadSports();
+    setInterval(loadMain, 5*60*1000);
+    setInterval(loadSports, 5*60*1000);
+  </script>
+</body>
+</html>

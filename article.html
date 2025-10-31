@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boston.com — Article (Retro)</title>
+  <style>
+    body { margin:0; padding:0; background:#c5cde6; font-family: Arial, Helvetica, sans-serif; font-size: 11pt; }
+    a { color:#0000cc; } a:visited{ color:#660099; }
+    .bday { background:#fff; text-align:center; border-bottom:2px solid #000066; }
+    .bday-inner { padding:12px 8px; display:inline-block; }
+    .bday h1 { display:inline-block; margin:0 10px; color:#cc0000; font-size:18pt; font-weight:bold; vertical-align:middle; }
+    .bday img { width:90px; height:auto; vertical-align:middle; }
+    .logo-area { background:#fff; text-align:center; padding:10px 0; border-bottom:1px solid #999; }
+    .logo { max-width:340px; height:auto; }
+    .bar { background:#000066; color:#fff; padding:6px 10px; font-weight:bold; letter-spacing:1px; text-align:center; }
+    .wrap { background:#fff; max-width:900px; margin:0 auto; padding:16px; }
+    .headline { font-size:20pt; margin:0 0 6px; color:#0000cc; text-decoration:underline; }
+    .meta { font-size:9pt; color:#666; font-style:italic; margin-bottom:12px; }
+    .dek { font-size:11pt; margin-bottom:16px; line-height:1.5; }
+    .btn { display:inline-block; background:#000066; color:#fff; padding:8px 12px; text-decoration:none; font-weight:bold; }
+    .notice { background:#fff8cc; border:1px solid #d7c35b; padding:10px; font-size:9pt; margin-top:12px; }
+  </style>
+</head>
+<body>
+  <div class="bday">
+    <div class="bday-inner">
+      <img src="https://i.imgur.com/WW2lB0B.gif" alt="Birthday Cake">
+      <h1>Happy Birthday Boston.com!!!!</h1>
+      <img src="https://i.imgur.com/WW2lB0B.gif" alt="Birthday Cake">
+    </div>
+  </div>
+  <div class="logo-area">
+    <a href="index.html"><img class="logo" src="https://i.imgur.com/YEWE5l7.gif" alt="Boston.com"></a>
+  </div>
+  <div class="bar" id="date">LOADING…</div>
+  <div class="wrap">
+    <div class="headline" id="h">Loading…</div>
+    <div class="meta" id="m"></div>
+    <div class="dek" id="d"></div>
+    <a class="btn" id="btn" target="_blank" rel="noopener">Continue reading on Boston.com</a>
+    <div class="notice">This retro article template displays cached RSS details. Full content and media are on the original page.</div>
+  </div>
+  <script>
+    const days = ['SUNDAY','MONDAY','TUESDAY','WEDNESDAY','THURSDAY','FRIDAY','SATURDAY'];
+    const months = ['JANUARY','FEBRUARY','MARCH','APRIL','MAY','JUNE','JULY','AUGUST','SEPTEMBER','OCTOBER','NOVEMBER','DECEMBER'];
+    const now = new Date();
+    document.getElementById('date').textContent = days[now.getDay()]+', '+months[now.getMonth()]+' '+now.getDate()+', '+now.getFullYear();
+
+    function stripHtml(html){ const t=document.createElement('div'); t.innerHTML=html||''; return t.textContent||t.innerText||''; }
+    function qs(k){ const p=new URLSearchParams(location.search); return p.get(k); }
+    function fmt(s){ const d=new Date(s); return isNaN(d.getTime())? '' : d.toLocaleString('en-US',{month:'short',day:'numeric',year:'numeric',hour:'numeric',minute:'2-digit'}); }
+
+    async function load(){
+      const link = qs('link');
+      const h = document.getElementById('h');
+      const m = document.getElementById('m');
+      const d = document.getElementById('d');
+      const btn = document.getElementById('btn');
+      if(!link){ h.textContent='Article not found'; m.textContent=''; d.textContent='Missing link parameter.'; btn.style.display='none'; return; }
+      btn.href = link;
+      try{
+        const res = await fetch('articles.json?'+Date.now());
+        const data = await res.json();
+        const a = (data.articles||[]).find(x=>x.link===link);
+        if(a){
+          h.textContent = a.title||'Untitled';
+          m.textContent = fmt(a.pubDate);
+          d.textContent = stripHtml(a.description||'');
+        } else {
+          h.textContent = 'Opening original article…';
+          m.textContent = '';
+          d.innerHTML = 'We couldn’t find this in cache. <a href="'+link+'" target="_blank" rel="noopener">Open on Boston.com</a>';
+        }
+      }catch(e){
+        h.textContent = 'Article';
+        d.innerHTML = 'Unable to load cached details. <a href="'+link+'" target="_blank" rel="noopener">Open on Boston.com</a>';
+      }
+    }
+    load();
+  </script>
+</body>
+</html>
