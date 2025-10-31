@@ -16,7 +16,7 @@
     .masthead { background:#fff; }
     .mast-row { border-bottom:1px solid #999; }
     .mast-cell { padding:6px 10px; font-size:9pt; }
-    .logo-area { text-align:left; padding:12px 10px; } /* left aligned */
+    .logo-area { text-align:left; padding:12px 10px; }
     .logo { max-width:340px; height:auto; display:inline-block; }
     .bluebar { background:#000066; color:#fff; text-align:center; font-weight:bold; letter-spacing:2px; padding:5px 10px; font-size:9pt; }
     /* Layout */
@@ -29,13 +29,13 @@
     .lr-title { color:#000; font-weight:bold; font-size:10pt; margin-bottom:4px; }
     .lr-link { display:block; font-size:9pt; text-decoration:underline; margin:3px 0; }
     /* Center well */
-    .well { padding:12px; }
+    .well { padding:12px; max-width: 900px; }
     .loadingbar { background:#0b2d7a; color:#fff; text-align:center; padding:6px; font-weight:bold; font-size:10pt; margin-bottom:10px; }
     .section-hdr { background:#0b2d7a; color:#fff; padding:6px 10px; font-size:11pt; font-weight:bold; border-left:6px solid #1a43a0; margin:10px 0; }
     .story { border-bottom:1px solid #ccc; margin-bottom:12px; padding-bottom:12px; }
-    .story h2 { font-size:16pt; margin:0 0 6px; }
+    .story h2 { font-size:16pt; margin:0 0 6px; line-height:1.3; }
     .story h2 a { color:#0000cc; text-decoration:underline; }
-    .story .dek { font-size:10pt; line-height:1.4; color:#000; }
+    .story .dek { font-size:10pt; line-height:1.5; color:#000; }
     .story .meta { font-size:8pt; color:#666; font-style:italic; margin-top:6px; }
     .error { background:#ffeeee; border:1px solid #cc0000; padding:12px; color:#cc0000; margin:10px 0; }
     /* Right rail boxes */
@@ -44,6 +44,30 @@
     .box-b { padding:8px; font-size:9pt; }
     .small { font-size:9pt; }
     .footer { font-size:8pt; color:#666; text-align:center; padding:18px 10px; }
+
+    /* ===== Mobile (stack columns) ===== */
+    @media (max-width: 768px) {
+      .bday img { width:64px; }
+      .bday h1 { font-size:16pt; display:block; margin:8px 0; }
+      .logo { max-width: 260px; }
+      .page, .page tr, .page td { display:block; width:100%; }
+      .left-rail, .center-well, .right-rail { width:100%; border:0; }
+      .left-rail, .right-rail { border-top:2px solid #000066; }
+      .well { padding: 12px; max-width: unset; }
+      .story h2 { font-size: 18px; }
+      .story .dek { font-size: 14px; }
+      .lr-link { font-size: 14px; }
+      .box { margin: 10px 12px; }
+      .bluebar { font-size: 12px; letter-spacing: 1px; }
+    }
+
+    /* Even smaller phones */
+    @media (max-width: 420px) {
+      .bday img { width:56px; }
+      .bday h1 { font-size: 15pt; }
+      .story h2 { font-size: 17px; }
+      .story .dek { font-size: 13px; }
+    }
   </style>
 </head>
 <body>
@@ -68,7 +92,7 @@
     </tr>
   </table>
 
-  <!-- Single date strip (remove duplicate) -->
+  <!-- Single date strip -->
   <div class="bluebar" id="current-date">LOADING...</div>
 
   <!-- Three-column table layout -->
@@ -165,17 +189,14 @@
       try {
         const res = await fetch('articles.json?' + Date.now());
         const data = await res.json();
-
         if (!data || !data.articles || !data.articles.length) throw new Error('no articles');
 
-        // Update updated time
         if (data.lastUpdated) {
           const t = new Date(data.lastUpdated);
           const ok = !isNaN(t.getTime());
           document.getElementById('update-time').textContent = ok ? t.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'}) : 'recently';
         }
 
-        // Render first 20 stories uniformly
         container.innerHTML = data.articles.slice(0, 20).map(storyHTML).join('');
         err.style.display = 'none';
       } catch (e) {
