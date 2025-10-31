@@ -1,8 +1,8 @@
-name: Update sports.json from Sports RSS (hourly)
+name: Update weather.json (hourly)
 
 on:
   schedule:
-    - cron: '5 * * * *'
+    - cron: '10 * * * *'
   workflow_dispatch: {}
 
 permissions:
@@ -25,21 +25,17 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Fetch SPORTS RSS and build sports.json
-        env:
-          RSS_URL: https://www.boston.com/category/sports/feed/
-          OUTPUT_PATH: sports.json
-          MAX_ITEMS: 25
+      - name: Fetch weather and write weather.json
         run: |
-          python fetch_rss.py
+          python fetch_weather.py
 
       - name: Commit and push if changed
         run: |
           if [[ -n "$(git status --porcelain)" ]]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add sports.json
-            git commit -m "chore: update sports.json from Sports RSS"
+            git add weather.json
+            git commit -m "chore: update weather.json"
             git push
           else
             echo "No changes to commit."
