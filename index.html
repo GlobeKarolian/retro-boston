@@ -16,8 +16,8 @@
     .masthead { background:#fff; }
     .mast-row { border-bottom:1px solid #999; }
     .mast-cell { padding:6px 10px; font-size:9pt; }
-    .logo-area { text-align:center; padding:12px 0; }
-    .logo { max-width:340px; height:auto; }
+    .logo-area { text-align:left; padding:12px 10px; } /* left aligned */
+    .logo { max-width:340px; height:auto; display:inline-block; }
     .bluebar { background:#000066; color:#fff; text-align:center; font-weight:bold; letter-spacing:2px; padding:5px 10px; font-size:9pt; }
     /* Layout */
     .page { width:100%; border-collapse:collapse; }
@@ -29,16 +29,14 @@
     .lr-title { color:#000; font-weight:bold; font-size:10pt; margin-bottom:4px; }
     .lr-link { display:block; font-size:9pt; text-decoration:underline; margin:3px 0; }
     /* Center well */
-    .dateline { background:#000066; color:#fff; padding:4px 8px; font-weight:bold; font-size:10pt; letter-spacing:1px; }
     .well { padding:12px; }
     .loadingbar { background:#0b2d7a; color:#fff; text-align:center; padding:6px; font-weight:bold; font-size:10pt; margin-bottom:10px; }
     .section-hdr { background:#0b2d7a; color:#fff; padding:6px 10px; font-size:11pt; font-weight:bold; border-left:6px solid #1a43a0; margin:10px 0; }
-    .lead { border-bottom:1px solid #ccc; margin-bottom:10px; padding-bottom:10px; }
-    .lead h2 { font-size:16pt; margin:0 0 6px; }
-    .lead h2 a { color:#0000cc; text-decoration:underline; }
-    .lead .dek { font-size:10pt; line-height:1.4; color:#000; }
-    .list li { margin:6px 0; }
-    .meta { font-size:8pt; color:#666; font-style:italic; }
+    .story { border-bottom:1px solid #ccc; margin-bottom:12px; padding-bottom:12px; }
+    .story h2 { font-size:16pt; margin:0 0 6px; }
+    .story h2 a { color:#0000cc; text-decoration:underline; }
+    .story .dek { font-size:10pt; line-height:1.4; color:#000; }
+    .story .meta { font-size:8pt; color:#666; font-style:italic; margin-top:6px; }
     .error { background:#ffeeee; border:1px solid #cc0000; padding:12px; color:#cc0000; margin:10px 0; }
     /* Right rail boxes */
     .box { border:1px solid #999; margin:10px; }
@@ -70,6 +68,7 @@
     </tr>
   </table>
 
+  <!-- Single date strip (remove duplicate) -->
   <div class="bluebar" id="current-date">LOADING...</div>
 
   <!-- Three-column table layout -->
@@ -98,16 +97,10 @@
 
       <!-- Center Well -->
       <td class="center-well">
-        <div class="dateline" id="dateline">LOADING…</div>
         <div class="well">
           <div class="loadingbar">LOADING…</div>
           <div class="section-hdr">LATEST NEWS FROM BOSTON.COM</div>
-          <div id="lead" class="lead" style="display:none;">
-            <h2 id="lead-h"></h2>
-            <div class="dek" id="lead-d"></div>
-            <div class="meta" id="lead-m"></div>
-          </div>
-          <ul id="list" class="list"></ul>
+          <div id="stories"></div>
           <div id="error" class="error" style="display:none;">Unable to load articles. The RSS feed may not have been fetched yet. Please check back shortly.</div>
         </div>
       </td>
@@ -139,12 +132,11 @@
   <div class="footer">© Boston.com — Retro demo for 30th Birthday</div>
 
   <script>
-    // Date strips
+    // Single date strip
     const days = ['SUNDAY','MONDAY','TUESDAY','WEDNESDAY','THURSDAY','FRIDAY','SATURDAY'];
     const months = ['JANUARY','FEBRUARY','MARCH','APRIL','MAY','JUNE','JULY','AUGUST','SEPTEMBER','OCTOBER','NOVEMBER','DECEMBER'];
     const now = new Date();
     document.getElementById('current-date').textContent = days[now.getDay()]+', '+months[now.getMonth()]+' '+now.getDate()+', '+now.getFullYear();
-    document.getElementById('dateline').textContent = days[now.getDay()]+', '+months[now.getMonth()]+' '+now.getDate()+', '+now.getFullYear();
 
     function stripHtml(html) {
       const tmp = document.createElement('div');
@@ -157,12 +149,17 @@
       return d.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});
     }
 
+    function storyHTML(a){
+      const desc = stripHtml(a.description||'');
+      return '<div class="story">'
+        + '<h2><a href="article.html?link='+encodeURIComponent(a.link)+'">'+a.title+'</a></h2>'
+        + (desc ? '<div class="dek">'+desc+'</div>' : '')
+        + (a.pubDate ? '<div class="meta">'+fmt(a.pubDate)+'</div>' : '')
+        + '</div>';
+    }
+
     async function loadMain() {
-      const lead = document.getElementById('lead');
-      const lh = document.getElementById('lead-h');
-      const ld = document.getElementById('lead-d');
-      const lm = document.getElementById('lead-m');
-      const list = document.getElementById('list');
+      const container = document.getElementById('stories');
       const err = document.getElementById('error');
 
       try {
@@ -178,24 +175,8 @@
           document.getElementById('update-time').textContent = ok ? t.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'}) : 'recently';
         }
 
-        // Lead is first article
-        const first = data.articles[0];
-        lead.style.display = 'block';
-        lh.innerHTML = '<a href="article.html?link='+encodeURIComponent(first.link)+'">'+first.title+'</a>';
-        ld.textContent = stripHtml(first.description||'');
-        lm.textContent = fmt(first.pubDate);
-
-        // Rest list
-        list.innerHTML = '';
-        data.articles.slice(1, 25).forEach(a => {
-          const li = document.createElement('li');
-          const desc = stripHtml(a.description||'').substring(0,180);
-          li.innerHTML = '<a href="article.html?link='+encodeURIComponent(a.link)+'">'+a.title+'</a>'
-            + (desc ? ' — <span class="small">'+desc+(desc.length>170?'…':'')+'</span>' : '')
-            + (a.pubDate ? ' <span class="meta">('+fmt(a.pubDate)+')</span>': '');
-          list.appendChild(li);
-        });
-
+        // Render first 20 stories uniformly
+        container.innerHTML = data.articles.slice(0, 20).map(storyHTML).join('');
         err.style.display = 'none';
       } catch (e) {
         console.error(e);
