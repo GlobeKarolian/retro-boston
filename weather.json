@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2025-11-04T05:31:32.479046+00:00",
-  "temperature": 57,
+  "lastUpdated": "2025-11-04T06:43:53.307593+00:00",
+  "temperature": 41,
   "temperatureUnit": "F",
-  "shortForecast": "Chance Light Rain",
-  "name": "This Afternoon",
-  "detailedForecast": "A chance of rain. Mostly cloudy. High near 57, with temperatures falling to around 51 in the afternoon. South wind around 9 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+  "shortForecast": "Clear",
+  "name": "Overnight",
+  "detailedForecast": "Clear, with a low around 41. West wind around 15 mph, with gusts as high as 30 mph."
 }
