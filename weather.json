@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2025-11-14T14:32:12.456951+00:00",
-  "temperature": 44,
+  "lastUpdated": "2025-11-14T15:28:10.699112+00:00",
+  "temperature": 31,
   "temperatureUnit": "F",
-  "shortForecast": "Mostly Sunny",
-  "name": "Today",
-  "detailedForecast": "Mostly sunny, with a high near 44. Northwest wind around 8 mph."
+  "shortForecast": "Clear",
+  "name": "Overnight",
+  "detailedForecast": "Clear, with a low around 31. Northwest wind around 6 mph."
 }
