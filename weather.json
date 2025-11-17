@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2025-11-17T03:54:02.123359+00:00",
-  "temperature": 30,
+  "lastUpdated": "2025-11-17T04:37:15.405760+00:00",
+  "temperature": 51,
   "temperatureUnit": "F",
-  "shortForecast": "Partly Cloudy",
-  "name": "Tonight",
-  "detailedForecast": "Partly cloudy, with a low around 30. West wind around 12 mph, with gusts as high as 28 mph."
+  "shortForecast": "Partly Sunny",
+  "name": "This Afternoon",
+  "detailedForecast": "Partly sunny. High near 51, with temperatures falling to around 42 in the afternoon. West wind around 13 mph, with gusts as high as 28 mph."
 }
