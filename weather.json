@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2025-11-22T05:29:53.939080+00:00",
-  "temperature": 38,
+  "lastUpdated": "2025-11-22T06:38:46.810162+00:00",
+  "temperature": 37,
   "temperatureUnit": "F",
-  "shortForecast": "Chance Rain Showers",
+  "shortForecast": "Patchy Fog",
   "name": "Overnight",
-  "detailedForecast": "A chance of rain showers after 4am. Cloudy, with a low around 38. West wind around 5 mph. Chance of precipitation is 40%."
+  "detailedForecast": "Patchy fog between 2am and 3am, then patchy fog and a slight chance of rain between 3am and 5am, then a chance of rain and patchy fog. Cloudy, with a low around 37. West wind around 5 mph. Chance of precipitation is 30%."
 }
