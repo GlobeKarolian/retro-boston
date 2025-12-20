@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2025-12-20T02:08:35.110683+00:00",
-  "temperature": 58,
+  "lastUpdated": "2025-12-20T03:31:30.903278+00:00",
+  "temperature": 25,
   "temperatureUnit": "F",
-  "shortForecast": "Chance Light Rain",
-  "name": "This Afternoon",
-  "detailedForecast": "A chance of rain. Mostly cloudy. High near 58, with temperatures falling to around 48 in the afternoon. Southwest wind around 16 mph, with gusts as high as 31 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
+  "shortForecast": "Slight Chance Light Snow then Partly Cloudy",
+  "name": "Tonight",
+  "detailedForecast": "A chance of rain before 7pm, then rain likely and patchy fog between 7pm and 9pm, then a slight chance of snow between 9pm and 10pm. Partly cloudy, with a low around 25. West wind 15 to 20 mph, with gusts as high as 39 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
 }
