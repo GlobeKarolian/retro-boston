@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2025-12-21T18:40:09.351878+00:00",
-  "temperature": 43,
+  "lastUpdated": "2025-12-21T19:23:46.060062+00:00",
+  "temperature": 30,
   "temperatureUnit": "F",
-  "shortForecast": "Sunny",
-  "name": "Today",
-  "detailedForecast": "Sunny. High near 43, with temperatures falling to around 33 in the afternoon. West wind around 12 mph, with gusts as high as 26 mph."
+  "shortForecast": "Mostly Cloudy",
+  "name": "Overnight",
+  "detailedForecast": "Mostly cloudy. Low around 30, with temperatures rising to around 36 overnight. Southwest wind around 10 mph, with gusts as high as 23 mph."
 }
