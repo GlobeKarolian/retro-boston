@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2025-12-30T02:23:40.194033+00:00",
-  "temperature": 50,
+  "lastUpdated": "2025-12-30T04:06:19.486958+00:00",
+  "temperature": 22,
   "temperatureUnit": "F",
-  "shortForecast": "Rain",
-  "name": "This Afternoon",
-  "detailedForecast": "Rain and patchy fog. Cloudy, with a high near 50. Southwest wind 8 to 12 mph, with gusts as high as 26 mph. Chance of precipitation is 90%. New rainfall amounts between a tenth and quarter of an inch possible."
+  "shortForecast": "Partly Cloudy",
+  "name": "Tonight",
+  "detailedForecast": "Partly cloudy, with a low around 22. West wind 13 to 16 mph, with gusts as high as 35 mph."
 }
