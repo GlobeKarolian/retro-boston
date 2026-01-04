@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-01-04T13:37:48.616272+00:00",
+  "lastUpdated": "2026-01-04T14:30:45.459408+00:00",
   "temperature": 30,
   "temperatureUnit": "F",
-  "shortForecast": "Patchy Fog then Mostly Cloudy",
+  "shortForecast": "Mostly Cloudy",
   "name": "Today",
-  "detailedForecast": "Patchy fog and a slight chance of snow before 9am. Mostly cloudy, with a high near 30. Northwest wind 2 to 6 mph. Chance of precipitation is 20%."
+  "detailedForecast": "Mostly cloudy, with a high near 30. Northwest wind 2 to 6 mph."
 }
