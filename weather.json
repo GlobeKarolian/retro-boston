@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-01-04T10:33:54.567968+00:00",
-  "temperature": 20,
+  "lastUpdated": "2026-01-04T11:25:56.361457+00:00",
+  "temperature": 30,
   "temperatureUnit": "F",
-  "shortForecast": "Slight Chance Light Snow",
-  "name": "Overnight",
-  "detailedForecast": "A slight chance of snow after 5am. Cloudy, with a low around 20. Northwest wind around 2 mph. Chance of precipitation is 20%."
+  "shortForecast": "Chance Light Snow then Mostly Cloudy",
+  "name": "Today",
+  "detailedForecast": "A chance of snow before 8am, then patchy fog and a slight chance of snow between 8am and 9am. Mostly cloudy, with a high near 30. Northwest wind 2 to 6 mph. Chance of precipitation is 30%."
 }
