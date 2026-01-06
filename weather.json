@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-01-06T22:35:08.404680+00:00",
-  "temperature": 34,
+  "lastUpdated": "2026-01-06T23:31:03.457441+00:00",
+  "temperature": 31,
   "temperatureUnit": "F",
-  "shortForecast": "Cloudy",
-  "name": "This Afternoon",
-  "detailedForecast": "Cloudy, with a high near 34. Northeast wind around 2 mph."
+  "shortForecast": "Chance Freezing Rain then Light Rain",
+  "name": "Tonight",
+  "detailedForecast": "A chance of freezing rain before midnight, then rain and a chance of freezing rain. Cloudy, with a low around 31. Northeast wind around 3 mph. Chance of precipitation is 80%. Little or no ice accumulation expected."
 }
