@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-01-05T23:30:06.242254+00:00",
-  "temperature": 28,
+  "lastUpdated": "2026-01-06T02:25:32.250405+00:00",
+  "temperature": 23,
   "temperatureUnit": "F",
-  "shortForecast": "Slight Chance Light Snow",
-  "name": "This Afternoon",
-  "detailedForecast": "A slight chance of snow after 3pm. Mostly cloudy, with a high near 28. South wind around 5 mph. Chance of precipitation is 20%."
+  "shortForecast": "Chance Light Snow then Patchy Fog",
+  "name": "Tonight",
+  "detailedForecast": "A chance of snow before 10pm, then snow likely and patchy fog between 10pm and 2am, then patchy fog and a slight chance of snow and a slight chance of freezing rain between 2am and 3am. Cloudy, with a low around 23. Southeast wind around 2 mph. Chance of precipitation is 60%. New snow accumulation of less than one inch possible."
 }
