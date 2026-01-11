@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-01-11T10:34:55.036296+00:00",
-  "temperature": 37,
+  "lastUpdated": "2026-01-11T11:26:26.561915+00:00",
+  "temperature": 43,
   "temperatureUnit": "F",
-  "shortForecast": "Chance Rain",
-  "name": "Overnight",
-  "detailedForecast": "A chance of rain and patchy fog. Cloudy, with a low around 37. Northwest wind around 5 mph. Chance of precipitation is 40%."
+  "shortForecast": "Chance Rain then Mostly Cloudy",
+  "name": "Today",
+  "detailedForecast": "A chance of rain and patchy fog before 7am, then patchy fog and a slight chance of rain between 7am and noon. Mostly cloudy. High near 43, with temperatures falling to around 37 in the afternoon. Northwest wind 5 to 10 mph, with gusts as high as 21 mph. Chance of precipitation is 30%."
 }
