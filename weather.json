@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-01-14T22:36:47.180598+00:00",
-  "temperature": 50,
+  "lastUpdated": "2026-01-14T23:26:45.272866+00:00",
+  "temperature": 40,
   "temperatureUnit": "F",
-  "shortForecast": "Mostly Cloudy",
-  "name": "This Afternoon",
-  "detailedForecast": "Mostly cloudy, with a high near 50. South wind around 5 mph."
+  "shortForecast": "Light Rain Likely",
+  "name": "Tonight",
+  "detailedForecast": "A chance of rain before 11pm, then rain likely and patchy fog between 11pm and 5am, then patchy fog and a slight chance of rain. Cloudy, with a low around 40. South wind around 5 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
 }
