@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-01-15T23:31:10.229688+00:00",
-  "temperature": 50,
+  "lastUpdated": "2026-01-16T02:27:38.148358+00:00",
+  "temperature": 20,
   "temperatureUnit": "F",
-  "shortForecast": "Mostly Sunny",
-  "name": "This Afternoon",
-  "detailedForecast": "Mostly sunny. High near 50, with temperatures falling to around 39 in the afternoon. Southwest wind around 13 mph, with gusts as high as 26 mph."
+  "shortForecast": "Partly Cloudy",
+  "name": "Tonight",
+  "detailedForecast": "Partly cloudy, with a low around 20. West wind 7 to 12 mph, with gusts as high as 25 mph."
 }
