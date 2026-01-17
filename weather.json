@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-01-17T10:34:06.659234+00:00",
-  "temperature": 23,
+  "lastUpdated": "2026-01-17T11:26:05.226546+00:00",
+  "temperature": 43,
   "temperatureUnit": "F",
-  "shortForecast": "Chance Light Snow",
-  "name": "Overnight",
-  "detailedForecast": "A chance of snow. Mostly cloudy, with a low around 23. South wind around 3 mph. Chance of precipitation is 30%."
+  "shortForecast": "Chance Light Snow then Light Rain Likely",
+  "name": "Today",
+  "detailedForecast": "A chance of snow before 10am, then rain likely. Mostly cloudy, with a high near 43. South wind 3 to 8 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
 }
