@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-01-22T04:16:44.704432+00:00",
+  "lastUpdated": "2026-01-22T05:44:44.543913+00:00",
   "temperature": 25,
   "temperatureUnit": "F",
-  "shortForecast": "Patchy Fog",
-  "name": "Tonight",
-  "detailedForecast": "Patchy fog and a chance of rain and snow before 4am. Mostly cloudy. Low around 25, with temperatures rising to around 34 overnight. Southwest wind around 9 mph. Chance of precipitation is 40%. New snow accumulation of less than one inch possible."
+  "shortForecast": "Chance Rain And Snow",
+  "name": "Overnight",
+  "detailedForecast": "A chance of rain and snow. Cloudy. Low around 25, with temperatures rising to around 34 overnight. Southwest wind around 10 mph, with gusts as high as 21 mph. Chance of precipitation is 50%. New snow accumulation of less than one inch possible."
 }
