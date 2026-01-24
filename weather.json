@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-01-24T10:34:50.338976+00:00",
-  "temperature": 1,
+  "lastUpdated": "2026-01-24T11:26:42.722297+00:00",
+  "temperature": 14,
   "temperatureUnit": "F",
-  "shortForecast": "Mostly Clear",
-  "name": "Overnight",
-  "detailedForecast": "Mostly clear, with a low around 1. Wind chill values as low as -11. Northwest wind around 9 mph, with gusts as high as 22 mph."
+  "shortForecast": "Sunny",
+  "name": "Today",
+  "detailedForecast": "Sunny, with a high near 14. Wind chill values as low as -13. Northwest wind 6 to 9 mph, with gusts as high as 22 mph."
 }
