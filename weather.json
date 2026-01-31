@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-01-31T10:40:43.718068+00:00",
-  "temperature": -4,
+  "lastUpdated": "2026-01-31T11:31:59.614364+00:00",
+  "temperature": 20,
   "temperatureUnit": "F",
-  "shortForecast": "Clear",
-  "name": "Overnight",
-  "detailedForecast": "Clear, with a low around -4. Wind chill values as low as -12. West wind around 6 mph."
+  "shortForecast": "Sunny",
+  "name": "Today",
+  "detailedForecast": "Sunny, with a high near 20. Wind chill values as low as -12. Northwest wind 2 to 6 mph."
 }
