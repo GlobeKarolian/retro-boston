@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-02-01T10:44:19.714494+00:00",
-  "temperature": 5,
+  "lastUpdated": "2026-02-01T11:33:09.080267+00:00",
+  "temperature": 23,
   "temperatureUnit": "F",
   "shortForecast": "Cloudy",
-  "name": "Overnight",
-  "detailedForecast": "Cloudy, with a low around 5. Wind chill values as low as -5. North wind around 12 mph, with gusts as high as 26 mph."
+  "name": "Today",
+  "detailedForecast": "Cloudy, with a high near 23. Wind chill values as low as -7. North wind around 14 mph, with gusts as high as 32 mph."
 }
