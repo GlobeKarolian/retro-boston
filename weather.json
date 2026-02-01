@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-02-01T22:40:16.547169+00:00",
-  "temperature": 23,
+  "lastUpdated": "2026-02-01T23:36:54.771364+00:00",
+  "temperature": 9,
   "temperatureUnit": "F",
-  "shortForecast": "Partly Sunny",
-  "name": "This Afternoon",
-  "detailedForecast": "Partly sunny, with a high near 23. North wind around 10 mph, with gusts as high as 28 mph."
+  "shortForecast": "Mostly Cloudy",
+  "name": "Tonight",
+  "detailedForecast": "Mostly cloudy, with a low around 9. Wind chill values as low as -1. Northwest wind 7 to 12 mph, with gusts as high as 29 mph."
 }
