@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-02-02T17:54:56.871386+00:00",
-  "temperature": 32,
+  "lastUpdated": "2026-02-02T23:40:31.001620+00:00",
+  "temperature": 5,
   "temperatureUnit": "F",
-  "shortForecast": "Sunny",
-  "name": "Today",
-  "detailedForecast": "Sunny, with a high near 32. Northwest wind 6 to 9 mph."
+  "shortForecast": "Clear",
+  "name": "Tonight",
+  "detailedForecast": "Clear, with a low around 5. Northwest wind 2 to 6 mph."
 }
