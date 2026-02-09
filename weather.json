@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-02-09T10:14:52.235036+00:00",
-  "temperature": 2,
+  "lastUpdated": "2026-02-09T11:54:18.902175+00:00",
+  "temperature": 27,
   "temperatureUnit": "F",
-  "shortForecast": "Clear",
-  "name": "Overnight",
-  "detailedForecast": "Clear, with a low around 2. Wind chill values as low as -6. Northwest wind around 7 mph."
+  "shortForecast": "Sunny",
+  "name": "Today",
+  "detailedForecast": "Sunny, with a high near 27. Wind chill values as low as -8. Northwest wind 8 to 12 mph, with gusts as high as 25 mph."
 }
