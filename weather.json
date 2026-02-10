@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-02-10T10:11:18.400525+00:00",
-  "temperature": 10,
+  "lastUpdated": "2026-02-10T11:57:15.225557+00:00",
+  "temperature": 33,
   "temperatureUnit": "F",
-  "shortForecast": "Partly Cloudy",
-  "name": "Overnight",
-  "detailedForecast": "Partly cloudy, with a low around 10. Northwest wind around 2 mph."
+  "shortForecast": "Mostly Cloudy then Slight Chance Light Snow",
+  "name": "Today",
+  "detailedForecast": "A slight chance of snow after 5pm. Mostly cloudy, with a high near 33. West wind around 5 mph. Chance of precipitation is 20%. New snow accumulation of less than half an inch possible."
 }
