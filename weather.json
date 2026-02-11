@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-02-11T03:22:49.857231+00:00",
+  "lastUpdated": "2026-02-11T05:42:51.841276+00:00",
   "temperature": 26,
   "temperatureUnit": "F",
-  "shortForecast": "Snow",
-  "name": "Tonight",
-  "detailedForecast": "Snow before 3am, then a chance of rain between 3am and 4am. Cloudy, with a low around 26. Southwest wind around 6 mph. Chance of precipitation is 100%. New snow accumulation of 1 to 2 inches possible."
+  "shortForecast": "Light Snow",
+  "name": "Overnight",
+  "detailedForecast": "Snow before 3am, then a chance of rain between 3am and 4am. Cloudy, with a low around 26. Southwest wind around 5 mph. Chance of precipitation is 100%. New snow accumulation of less than one inch possible."
 }
