@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-02-17T03:11:21.806443+00:00",
+  "lastUpdated": "2026-02-17T05:35:06.102602+00:00",
   "temperature": 25,
   "temperatureUnit": "F",
-  "shortForecast": "Mostly Cloudy",
-  "name": "Tonight",
-  "detailedForecast": "Mostly cloudy, with a low around 25. Northwest wind around 3 mph."
+  "shortForecast": "Cloudy",
+  "name": "Overnight",
+  "detailedForecast": "Cloudy, with a low around 25. West wind around 2 mph."
 }
