@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-02-18T23:41:51.388248+00:00",
-  "temperature": 39,
+  "lastUpdated": "2026-02-19T03:13:02.288490+00:00",
+  "temperature": 25,
   "temperatureUnit": "F",
-  "shortForecast": "Patchy Fog",
-  "name": "This Afternoon",
-  "detailedForecast": "Patchy fog and rain and snow likely. Cloudy, with a high near 39. North wind around 2 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
+  "shortForecast": "Chance Light Snow",
+  "name": "Tonight",
+  "detailedForecast": "A chance of snow before 1am. Mostly cloudy, with a low around 25. North wind around 3 mph. Chance of precipitation is 30%."
 }
