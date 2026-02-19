@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-02-19T10:02:15.366346+00:00",
-  "temperature": 25,
+  "lastUpdated": "2026-02-19T11:03:00.068123+00:00",
+  "temperature": 40,
   "temperatureUnit": "F",
-  "shortForecast": "Mostly Cloudy",
-  "name": "Overnight",
-  "detailedForecast": "Mostly cloudy, with a low around 25. North wind around 3 mph."
+  "shortForecast": "Mostly Sunny",
+  "name": "Today",
+  "detailedForecast": "Mostly sunny, with a high near 40. Northeast wind around 3 mph."
 }
