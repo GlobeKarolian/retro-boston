@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-02-20T22:45:13.260343+00:00",
-  "temperature": 39,
+  "lastUpdated": "2026-02-20T23:39:36.730651+00:00",
+  "temperature": 26,
   "temperatureUnit": "F",
-  "shortForecast": "Chance Freezing Rain",
-  "name": "This Afternoon",
-  "detailedForecast": "A chance of freezing rain and rain and snow. Cloudy. High near 39, with temperatures falling to around 32 in the afternoon. East wind around 7 mph. Chance of precipitation is 100%. New rainfall amounts less than a tenth of an inch possible."
+  "shortForecast": "Freezing Rain then Chance Freezing Rain",
+  "name": "Tonight",
+  "detailedForecast": "Rain and freezing rain likely before 8pm, then freezing rain and rain and snow between 8pm and 9pm, then a chance of freezing rain and rain and snow between 9pm and 10pm, then a chance of freezing rain and rain and snow. Cloudy, with a low around 26. Northeast wind 5 to 8 mph, with gusts as high as 22 mph. Chance of precipitation is 100%. New snow accumulation of less than one inch possible."
 }
