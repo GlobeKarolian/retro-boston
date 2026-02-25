@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-02-25T10:07:43.477035+00:00",
-  "temperature": 9,
+  "lastUpdated": "2026-02-25T11:07:17.821463+00:00",
+  "temperature": 38,
   "temperatureUnit": "F",
-  "shortForecast": "Slight Chance Light Snow",
-  "name": "Overnight",
-  "detailedForecast": "A slight chance of snow. Mostly cloudy, with a low around 9. South wind around 5 mph. Chance of precipitation is 20%."
+  "shortForecast": "Light Snow",
+  "name": "Today",
+  "detailedForecast": "Snow before 3pm. Cloudy, with a high near 38. South wind 6 to 12 mph, with gusts as high as 28 mph. Chance of precipitation is 100%. New snow accumulation of 1 to 2 inches possible."
 }
