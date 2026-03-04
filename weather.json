@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-03-04T02:48:29.324183+00:00",
+  "lastUpdated": "2026-03-04T04:49:24.145893+00:00",
   "temperature": 30,
   "temperatureUnit": "F",
-  "shortForecast": "Freezing Rain",
+  "shortForecast": "Freezing Rain then Light Rain",
   "name": "Tonight",
-  "detailedForecast": "Freezing rain and areas of fog before 1am, then rain likely and areas of fog between 1am and 3am, then areas of fog and a chance of rain between 3am and 5am. Cloudy, with a low around 30. Northwest wind around 3 mph. Chance of precipitation is 100%. New rainfall amounts between a tenth and quarter of an inch possible."
+  "detailedForecast": "Freezing rain and areas of fog before 1am, then rain and areas of fog and a chance of freezing rain between 1am and 3am, then areas of fog and a chance of rain. Cloudy, with a low around 30. Northwest wind around 3 mph. Chance of precipitation is 90%. New ice accumulation of less than half an inch possible."
 }
