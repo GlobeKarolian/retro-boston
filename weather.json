@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-03-05T21:48:24.049007+00:00",
-  "temperature": 41,
+  "lastUpdated": "2026-03-05T23:22:26.271102+00:00",
+  "temperature": 31,
   "temperatureUnit": "F",
-  "shortForecast": "Light Rain Likely",
-  "name": "This Afternoon",
-  "detailedForecast": "Rain likely. Cloudy, with a high near 41. Northeast wind around 10 mph, with gusts as high as 23 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
+  "shortForecast": "Light Rain then Freezing Rain",
+  "name": "Tonight",
+  "detailedForecast": "Rain before 2am, then freezing rain and rain. Cloudy, with a low around 31. Northeast wind around 10 mph, with gusts as high as 23 mph. Chance of precipitation is 100%. New snow accumulation of less than one inch possible."
 }
