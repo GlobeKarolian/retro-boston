@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-03-08T09:41:28.861808+00:00",
-  "temperature": 43,
+  "lastUpdated": "2026-03-08T10:40:31.437987+00:00",
+  "temperature": 58,
   "temperatureUnit": "F",
-  "shortForecast": "Chance Light Rain",
-  "name": "Overnight",
-  "detailedForecast": "A chance of rain and patchy fog. Cloudy, with a low around 43. Southwest wind around 10 mph. Chance of precipitation is 30%."
+  "shortForecast": "Chance Light Rain then Mostly Cloudy",
+  "name": "Today",
+  "detailedForecast": "A chance of rain and patchy fog before 9am, then patchy fog and a slight chance of rain between 9am and noon. Mostly cloudy, with a high near 58. West wind 6 to 9 mph. Chance of precipitation is 30%."
 }
