@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-03-12T21:46:04.767708+00:00",
-  "temperature": 50,
+  "lastUpdated": "2026-03-12T22:42:28.064183+00:00",
+  "temperature": 26,
   "temperatureUnit": "F",
-  "shortForecast": "Rain And Snow",
-  "name": "This Afternoon",
-  "detailedForecast": "Rain and snow. Cloudy. High near 50, with temperatures falling to around 34 in the afternoon. Northwest wind around 10 mph. Chance of precipitation is 90%. New rainfall amounts less than a tenth of an inch possible."
+  "shortForecast": "Rain And Snow then Partly Cloudy",
+  "name": "Tonight",
+  "detailedForecast": "Rain and snow before 8pm, then snow and patchy fog between 8pm and 11pm. Partly cloudy, with a low around 26. Northwest wind 6 to 10 mph. Chance of precipitation is 80%. New snow accumulation of less than one inch possible."
 }
