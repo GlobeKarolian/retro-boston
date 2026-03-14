@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-03-14T04:50:50.050583+00:00",
-  "temperature": 33,
+  "lastUpdated": "2026-03-14T05:58:44.211770+00:00",
+  "temperature": 34,
   "temperatureUnit": "F",
-  "shortForecast": "Slight Chance Rain Showers then Snow Showers Likely",
-  "name": "Tonight",
-  "detailedForecast": "A slight chance of rain showers between 11pm and midnight, then snow showers likely between midnight and 1am, then rain showers likely between 1am and 3am. Mostly cloudy. Low around 33, with temperatures rising to around 40 overnight. South wind around 13 mph, with gusts as high as 23 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
+  "shortForecast": "Rain Showers",
+  "name": "Overnight",
+  "detailedForecast": "Rain showers before 3am. Partly cloudy, with a low around 34. South wind around 10 mph. Chance of precipitation is 90%. New rainfall amounts less than a tenth of an inch possible."
 }
