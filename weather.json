@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-03-16T03:31:36.688662+00:00",
-  "temperature": 34,
+  "lastUpdated": "2026-03-16T05:54:51.069661+00:00",
+  "temperature": 35,
   "temperatureUnit": "F",
-  "shortForecast": "Mostly Cloudy then Chance Rain Showers",
-  "name": "Tonight",
-  "detailedForecast": "A chance of rain showers between 4am and 5am, then rain showers likely and patchy fog. Mostly cloudy. Low around 34, with temperatures rising to around 42 overnight. Southeast wind 6 to 9 mph. Chance of precipitation is 60%. New rainfall amounts between a tenth and quarter of an inch possible."
+  "shortForecast": "Chance Rain",
+  "name": "Overnight",
+  "detailedForecast": "A chance of rain and a slight chance of thunderstorms after 5am. Mostly cloudy. Low around 35, with temperatures rising to around 44 overnight. Southeast wind 7 to 10 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
 }
