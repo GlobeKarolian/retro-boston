@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-03-17T09:05:31.200122+00:00",
-  "temperature": 40,
+  "lastUpdated": "2026-03-17T10:05:29.395982+00:00",
+  "temperature": 42,
   "temperatureUnit": "F",
-  "shortForecast": "Chance Light Rain",
-  "name": "Overnight",
-  "detailedForecast": "A chance of rain. Cloudy. Low around 40, with temperatures rising to around 50 overnight. Southwest wind around 17 mph, with gusts as high as 33 mph. Chance of precipitation is 30%."
+  "shortForecast": "Mostly Sunny",
+  "name": "Today",
+  "detailedForecast": "Mostly sunny, with a high near 42. West wind 12 to 16 mph, with gusts as high as 32 mph."
 }
