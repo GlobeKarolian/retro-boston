@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-03-23T03:21:35.059883+00:00",
+  "lastUpdated": "2026-03-23T05:45:16.221814+00:00",
   "temperature": 35,
   "temperatureUnit": "F",
-  "shortForecast": "Light Rain",
-  "name": "Tonight",
-  "detailedForecast": "Rain. Cloudy, with a low around 35. North wind 6 to 9 mph. Chance of precipitation is 100%. New rainfall amounts between a quarter and half of an inch possible."
+  "shortForecast": "Sleet",
+  "name": "Overnight",
+  "detailedForecast": "Rain before 3am, then sleet and rain. Cloudy, with a low around 35. North wind around 9 mph. Chance of precipitation is 100%. New rainfall amounts between a quarter and half of an inch possible."
 }
