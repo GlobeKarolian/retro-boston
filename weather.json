@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-03-27T09:05:37.951467+00:00",
-  "temperature": 42,
+  "lastUpdated": "2026-03-27T10:04:14.147829+00:00",
+  "temperature": 48,
   "temperatureUnit": "F",
-  "shortForecast": "Chance Rain Showers",
-  "name": "Overnight",
-  "detailedForecast": "A chance of rain showers. Cloudy. Low around 42, with temperatures rising to around 49 overnight. Northwest wind around 9 mph. Chance of precipitation is 30%."
+  "shortForecast": "Slight Chance Rain Showers then Mostly Cloudy",
+  "name": "Today",
+  "detailedForecast": "A slight chance of rain showers before 7am. Mostly cloudy, with a high near 48. North wind 8 to 14 mph, with gusts as high as 24 mph. Chance of precipitation is 20%."
 }
