@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-03-30T09:44:43.223294+00:00",
-  "temperature": 38,
+  "lastUpdated": "2026-03-30T11:16:27.804903+00:00",
+  "temperature": 63,
   "temperatureUnit": "F",
-  "shortForecast": "Cloudy",
-  "name": "Overnight",
-  "detailedForecast": "Cloudy, with a low around 38. South wind around 9 mph."
+  "shortForecast": "Mostly Cloudy then Slight Chance Light Rain",
+  "name": "Today",
+  "detailedForecast": "A slight chance of rain after 5pm. Mostly cloudy, with a high near 63. Southwest wind 10 to 15 mph, with gusts as high as 28 mph. Chance of precipitation is 20%."
 }
