@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-03-30T21:54:19.955518+00:00",
-  "temperature": 64,
+  "lastUpdated": "2026-03-30T22:53:51.659474+00:00",
+  "temperature": 50,
   "temperatureUnit": "F",
-  "shortForecast": "Mostly Cloudy",
-  "name": "This Afternoon",
-  "detailedForecast": "Mostly cloudy, with a high near 64. Southwest wind around 12 mph, with gusts as high as 26 mph."
+  "shortForecast": "Mostly Cloudy then Chance Showers And Thunderstorms",
+  "name": "Tonight",
+  "detailedForecast": "A chance of rain showers between 1am and 5am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 50. Southwest wind 6 to 12 mph, with gusts as high as 24 mph. Chance of precipitation is 50%."
 }
