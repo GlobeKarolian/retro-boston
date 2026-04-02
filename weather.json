@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-02T09:12:13.295607+00:00",
-  "temperature": 37,
+  "lastUpdated": "2026-04-02T11:07:18.057428+00:00",
+  "temperature": 40,
   "temperatureUnit": "F",
-  "shortForecast": "Rain",
-  "name": "Overnight",
-  "detailedForecast": "Rain and patchy fog. Cloudy, with a low around 37. Northeast wind around 9 mph, with gusts as high as 22 mph. Chance of precipitation is 90%. New rainfall amounts between a quarter and half of an inch possible."
+  "shortForecast": "Rain then Patchy Fog",
+  "name": "Today",
+  "detailedForecast": "Rain and patchy fog before noon, then patchy fog and a slight chance of rain between noon and 4pm. Cloudy, with a high near 40. Northeast wind around 10 mph, with gusts as high as 23 mph. Chance of precipitation is 80%. New rainfall amounts between a quarter and half of an inch possible."
 }
