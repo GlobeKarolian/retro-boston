@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-03T10:02:00.412322+00:00",
-  "temperature": 36,
+  "lastUpdated": "2026-04-03T11:00:43.113331+00:00",
+  "temperature": 63,
   "temperatureUnit": "F",
-  "shortForecast": "Patchy Fog",
-  "name": "Overnight",
-  "detailedForecast": "Patchy fog and a slight chance of rain showers. Cloudy, with a low around 36. East wind around 2 mph. Chance of precipitation is 20%."
+  "shortForecast": "Chance Rain Showers",
+  "name": "Today",
+  "detailedForecast": "A chance of rain showers and patchy fog before 2pm. Mostly cloudy, with a high near 63. South wind 2 to 12 mph, with gusts as high as 23 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
 }
