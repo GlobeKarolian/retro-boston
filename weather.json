@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-05T09:53:41.012076+00:00",
-  "temperature": 37,
+  "lastUpdated": "2026-04-05T10:52:31.261765+00:00",
+  "temperature": 60,
   "temperatureUnit": "F",
-  "shortForecast": "Chance Rain Showers",
-  "name": "Overnight",
-  "detailedForecast": "A chance of rain showers and patchy fog. Cloudy, with a low around 37. Southeast wind around 6 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+  "shortForecast": "Showers And Thunderstorms",
+  "name": "Today",
+  "detailedForecast": "A chance of rain showers and patchy fog before 7am, then patchy fog and a slight chance of rain showers between 7am and 10am, then a chance of rain showers and patchy fog between 10am and noon, then showers and thunderstorms. Cloudy, with a high near 60. South wind 6 to 13 mph, with gusts as high as 24 mph. Chance of precipitation is 90%. New rainfall amounts between a quarter and half of an inch possible."
 }
