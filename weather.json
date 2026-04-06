@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-06T21:49:08.134122+00:00",
-  "temperature": 51,
+  "lastUpdated": "2026-04-06T22:53:52.792751+00:00",
+  "temperature": 33,
   "temperatureUnit": "F",
-  "shortForecast": "Mostly Sunny",
-  "name": "This Afternoon",
-  "detailedForecast": "Mostly sunny, with a high near 51. West wind around 10 mph, with gusts as high as 23 mph."
+  "shortForecast": "Partly Cloudy then Slight Chance Snow Showers",
+  "name": "Tonight",
+  "detailedForecast": "A slight chance of snow showers after 5am. Partly cloudy, with a low around 33. West wind 2 to 9 mph, with gusts as high as 21 mph. Chance of precipitation is 20%."
 }
