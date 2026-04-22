@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-22T03:37:33.516824+00:00",
-  "temperature": 36,
+  "lastUpdated": "2026-04-22T06:07:48.965759+00:00",
+  "temperature": 37,
   "temperatureUnit": "F",
-  "shortForecast": "Mostly Cloudy then Slight Chance Rain Showers",
-  "name": "Tonight",
-  "detailedForecast": "A slight chance of rain showers after 4am. Mostly cloudy, with a low around 36. South wind around 5 mph. Chance of precipitation is 20%."
+  "shortForecast": "Mostly Cloudy",
+  "name": "Overnight",
+  "detailedForecast": "Mostly cloudy, with a low around 37. South wind around 5 mph."
 }
