@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-01T09:56:19.525769+00:00",
-  "temperature": 44,
+  "lastUpdated": "2026-05-01T11:20:00.355188+00:00",
+  "temperature": 65,
   "temperatureUnit": "F",
-  "shortForecast": "Partly Cloudy",
-  "name": "Overnight",
-  "detailedForecast": "Partly cloudy, with a low around 44. Northwest wind around 5 mph."
+  "shortForecast": "Sunny",
+  "name": "Today",
+  "detailedForecast": "Sunny, with a high near 65. Northwest wind around 8 mph."
 }
