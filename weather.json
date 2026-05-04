@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-04T09:29:59.787725+00:00",
-  "temperature": 42,
+  "lastUpdated": "2026-05-04T12:03:48.242075+00:00",
+  "temperature": 69,
   "temperatureUnit": "F",
-  "shortForecast": "Mostly Cloudy",
-  "name": "Overnight",
-  "detailedForecast": "Mostly cloudy, with a low around 42. West wind around 3 mph."
+  "shortForecast": "Sunny",
+  "name": "Today",
+  "detailedForecast": "Sunny, with a high near 69. West wind 10 to 20 mph, with gusts as high as 33 mph."
 }
