@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-06T09:35:03.073277+00:00",
-  "temperature": 55,
+  "lastUpdated": "2026-05-06T12:03:01.371904+00:00",
+  "temperature": 66,
   "temperatureUnit": "F",
-  "shortForecast": "Mostly Cloudy",
-  "name": "Overnight",
-  "detailedForecast": "Mostly cloudy, with a low around 55. South wind around 12 mph."
+  "shortForecast": "Cloudy then Rain Showers Likely",
+  "name": "Today",
+  "detailedForecast": "Rain showers likely after 2pm. Cloudy, with a high near 66. South wind 14 to 20 mph, with gusts as high as 30 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
 }
