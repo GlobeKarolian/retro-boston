@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-16T21:00:53.383905+00:00",
-  "temperature": 75,
+  "lastUpdated": "2026-05-16T22:01:07.204150+00:00",
+  "temperature": 55,
   "temperatureUnit": "F",
-  "shortForecast": "Sunny",
-  "name": "This Afternoon",
-  "detailedForecast": "Sunny, with a high near 75. Southwest wind around 13 mph."
+  "shortForecast": "Partly Cloudy then Chance Rain Showers",
+  "name": "Tonight",
+  "detailedForecast": "A chance of rain showers between 4am and 5am. Partly cloudy, with a low around 55. Southwest wind 6 to 13 mph. Chance of precipitation is 30%."
 }
