@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-28T08:51:04.610391+00:00",
-  "temperature": 60,
+  "lastUpdated": "2026-05-28T12:42:11.215585+00:00",
+  "temperature": 75,
   "temperatureUnit": "F",
-  "shortForecast": "Mostly Cloudy",
-  "name": "Overnight",
-  "detailedForecast": "Mostly cloudy, with a low around 60. North wind around 5 mph."
+  "shortForecast": "Scattered Rain Showers",
+  "name": "Today",
+  "detailedForecast": "Scattered rain showers between 11am and 2pm, then scattered showers and thunderstorms. Partly sunny, with a high near 75. North wind 8 to 12 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible."
 }
