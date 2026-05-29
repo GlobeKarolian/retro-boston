@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-29T19:38:36.484670+00:00",
-  "temperature": 73,
+  "lastUpdated": "2026-05-29T22:01:49.884833+00:00",
+  "temperature": 45,
   "temperatureUnit": "F",
-  "shortForecast": "Mostly Cloudy",
-  "name": "This Afternoon",
-  "detailedForecast": "Mostly cloudy, with a high near 73. West wind around 9 mph, with gusts as high as 22 mph. Chance of precipitation is 20%."
+  "shortForecast": "Light Rain",
+  "name": "Tonight",
+  "detailedForecast": "Rain between 8pm and 4am. Mostly cloudy, with a low around 45. Southwest wind 5 to 8 mph, with gusts as high as 22 mph. Chance of precipitation is 80%. New rainfall amounts less than a tenth of an inch possible."
 }
