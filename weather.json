@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-30T22:10:37.109870+00:00",
-  "temperature": 41,
+  "lastUpdated": "2026-05-31T00:12:01.296377+00:00",
+  "temperature": 42,
   "temperatureUnit": "F",
-  "shortForecast": "Slight Chance Rain Showers then Partly Cloudy",
+  "shortForecast": "Mostly Clear",
   "name": "Tonight",
-  "detailedForecast": "A slight chance of rain showers before 7pm. Partly cloudy, with a low around 41. North wind 3 to 15 mph, with gusts as high as 30 mph. Chance of precipitation is 20%."
+  "detailedForecast": "Mostly clear, with a low around 42. North wind 3 to 8 mph."
 }
