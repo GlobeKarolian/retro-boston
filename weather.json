@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-14T23:36:02.061283+00:00",
+  "lastUpdated": "2026-06-15T05:23:53.134683+00:00",
   "temperature": 62,
   "temperatureUnit": "F",
-  "shortForecast": "Mostly Cloudy then Showers And Thunderstorms Likely",
-  "name": "Tonight",
-  "detailedForecast": "A chance of rain showers between midnight and 2am, then showers and thunderstorms likely between 2am and 3am, then patchy fog and showers and thunderstorms. Mostly cloudy, with a low around 62. South wind 5 to 14 mph, with gusts as high as 25 mph. Chance of precipitation is 90%. New rainfall amounts between a tenth and quarter of an inch possible."
+  "shortForecast": "Showers And Thunderstorms",
+  "name": "Overnight",
+  "detailedForecast": "A slight chance of rain showers before 2am, then showers and thunderstorms between 2am and 4am, then patchy fog and showers and thunderstorms likely between 4am and 5am, then a chance of showers and thunderstorms. Cloudy, with a low around 62. South wind around 8 mph. Chance of precipitation is 80%. New rainfall amounts between a tenth and quarter of an inch possible."
 }
