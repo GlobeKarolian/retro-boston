@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-22T05:26:03.142298+00:00",
-  "temperature": 60,
+  "lastUpdated": "2026-06-22T12:23:02.859502+00:00",
+  "temperature": 80,
   "temperatureUnit": "F",
-  "shortForecast": "Mostly Clear",
-  "name": "Overnight",
-  "detailedForecast": "Mostly clear, with a low around 60. Northwest wind around 1 mph."
+  "shortForecast": "Mostly Cloudy then Chance Rain Showers",
+  "name": "Today",
+  "detailedForecast": "A chance of rain showers after 1pm. Mostly cloudy, with a high near 80. South wind 0 to 8 mph. Chance of precipitation is 50%. New rainfall amounts between a tenth and quarter of an inch possible."
 }
