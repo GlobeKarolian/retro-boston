@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-28T00:12:21.296266+00:00",
-  "temperature": 63,
+  "lastUpdated": "2026-06-28T05:43:21.337814+00:00",
+  "temperature": 65,
   "temperatureUnit": "F",
-  "shortForecast": "Isolated Rain Showers then Mostly Cloudy",
-  "name": "Tonight",
-  "detailedForecast": "Isolated rain showers before 9pm. Mostly cloudy, with a low around 63. Southeast wind 3 to 7 mph. Chance of precipitation is 20%."
+  "shortForecast": "Patchy Fog",
+  "name": "Overnight",
+  "detailedForecast": "Patchy fog after 5am. Mostly cloudy, with a low around 65. Northeast wind around 2 mph."
 }
