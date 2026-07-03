@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-03T20:20:49.877376+00:00",
-  "temperature": 100,
+  "lastUpdated": "2026-07-03T22:13:37.546834+00:00",
+  "temperature": 75,
   "temperatureUnit": "F",
-  "shortForecast": "Sunny",
-  "name": "This Afternoon",
-  "detailedForecast": "Sunny, with a high near 100. Heat index values as high as 104. West wind around 10 mph."
+  "shortForecast": "Partly Cloudy",
+  "name": "Tonight",
+  "detailedForecast": "Partly cloudy, with a low around 75. Heat index values as high as 101. West wind 3 to 10 mph."
 }
