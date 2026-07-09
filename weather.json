@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-09T21:39:24.386188+00:00",
-  "temperature": 89,
+  "lastUpdated": "2026-07-09T23:33:33.021081+00:00",
+  "temperature": 70,
   "temperatureUnit": "F",
-  "shortForecast": "Mostly Sunny",
-  "name": "This Afternoon",
-  "detailedForecast": "Mostly sunny, with a high near 89. Southwest wind around 12 mph."
+  "shortForecast": "Slight Chance Rain Showers then Patchy Fog",
+  "name": "Tonight",
+  "detailedForecast": "A slight chance of rain showers between 11pm and midnight, then patchy fog. Mostly cloudy, with a low around 70. Southwest wind 3 to 10 mph. Chance of precipitation is 20%."
 }
