@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-19T03:46:26.745591+00:00",
-  "temperature": 67,
+  "lastUpdated": "2026-07-19T06:40:23.986337+00:00",
+  "temperature": 68,
   "temperatureUnit": "F",
-  "shortForecast": "Showers And Thunderstorms Likely then Chance Showers And Thunderstorms",
-  "name": "Tonight",
-  "detailedForecast": "Showers and thunderstorms likely before midnight, then a chance of showers and thunderstorms between midnight and 3am. Some of the storms could produce heavy rain. Mostly cloudy, with a low around 67. Southwest wind 7 to 10 mph. Chance of precipitation is 60%. New rainfall amounts between a quarter and half of an inch possible."
+  "shortForecast": "Isolated Rain Showers",
+  "name": "Overnight",
+  "detailedForecast": "Isolated rain showers before 3am. Cloudy, with a low around 68. West wind around 8 mph. Chance of precipitation is 20%."
 }
