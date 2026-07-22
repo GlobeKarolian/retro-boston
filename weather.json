@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-22T09:35:07.045595+00:00",
-  "temperature": 68,
+  "lastUpdated": "2026-07-22T12:00:30.499664+00:00",
+  "temperature": 85,
   "temperatureUnit": "F",
-  "shortForecast": "Patchy Fog",
-  "name": "Overnight",
-  "detailedForecast": "Patchy fog and showers and thunderstorms likely. Some of the storms could produce heavy rain. Cloudy, with a low around 68. South wind around 10 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible."
+  "shortForecast": "Rain Showers",
+  "name": "Today",
+  "detailedForecast": "Rain showers and patchy fog. Partly sunny, with a high near 85. Southwest wind 9 to 13 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
 }
