@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-27T07:45:48.687313+00:00",
-  "temperature": 55,
+  "lastUpdated": "2026-07-27T11:35:18.684864+00:00",
+  "temperature": 85,
   "temperatureUnit": "F",
-  "shortForecast": "Partly Cloudy",
-  "name": "Overnight",
-  "detailedForecast": "Partly cloudy, with a low around 55. North wind around 1 mph."
+  "shortForecast": "Sunny",
+  "name": "Today",
+  "detailedForecast": "Sunny, with a high near 85. East wind 0 to 9 mph."
 }
