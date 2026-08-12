@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-08-12T08:36:35.010538+00:00",
-  "temperature": 65,
+  "lastUpdated": "2026-08-12T10:16:49.851576+00:00",
+  "temperature": 85,
   "temperatureUnit": "F",
-  "shortForecast": "Mostly Cloudy",
-  "name": "Overnight",
-  "detailedForecast": "Mostly cloudy, with a low around 65. Northwest wind around 2 mph."
+  "shortForecast": "Sunny",
+  "name": "Today",
+  "detailedForecast": "Sunny, with a high near 85. Northwest wind 2 to 6 mph."
 }
