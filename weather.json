@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-08-31T19:59:21.774505+00:00",
-  "temperature": 79,
+  "lastUpdated": "2026-08-31T23:47:19.960266+00:00",
+  "temperature": 64,
   "temperatureUnit": "F",
-  "shortForecast": "Mostly Sunny",
-  "name": "This Afternoon",
-  "detailedForecast": "Mostly sunny, with a high near 79. South wind 5 to 8 mph."
+  "shortForecast": "Mostly Cloudy then Chance Rain Showers",
+  "name": "Tonight",
+  "detailedForecast": "A chance of rain showers after 2am. Mostly cloudy, with a low around 64. South wind 1 to 7 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
 }
