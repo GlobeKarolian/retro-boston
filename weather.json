@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-20T06:09:31.267134+00:00",
-  "temperature": 50,
+  "lastUpdated": "2026-09-20T11:21:09.968274+00:00",
+  "temperature": 63,
   "temperatureUnit": "F",
-  "shortForecast": "Mostly Cloudy",
-  "name": "Overnight",
-  "detailedForecast": "Mostly cloudy, with a low around 50. Northeast wind around 1 mph."
+  "shortForecast": "Chance Rain Showers",
+  "name": "Today",
+  "detailedForecast": "A chance of rain showers between 10am and 1pm, then rain showers and patchy fog. Mostly cloudy, with a high near 63. Southeast wind 2 to 7 mph. Chance of precipitation is 90%. New rainfall amounts between a quarter and half of an inch possible."
 }
