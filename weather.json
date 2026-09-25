@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-25T18:31:35.179495+00:00",
-  "temperature": 68,
+  "lastUpdated": "2026-09-25T22:15:09.359765+00:00",
+  "temperature": 56,
   "temperatureUnit": "F",
-  "shortForecast": "Chance Light Rain",
-  "name": "This Afternoon",
-  "detailedForecast": "A chance of rain. Cloudy, with a high near 68. Northeast wind 18 to 23 mph, with gusts as high as 36 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
+  "shortForecast": "Rain Likely",
+  "name": "Tonight",
+  "detailedForecast": "Rain likely. Cloudy, with a low around 56. Northeast wind 18 to 24 mph, with gusts as high as 43 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible."
 }
