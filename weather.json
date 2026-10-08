@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-08T16:25:04.633826+00:00",
-  "temperature": 72,
+  "lastUpdated": "2026-10-08T22:01:25.518043+00:00",
+  "temperature": 48,
   "temperatureUnit": "F",
-  "shortForecast": "Slight Chance Rain Showers",
-  "name": "This Afternoon",
-  "detailedForecast": "A slight chance of rain showers before 1pm. Sunny, with a high near 72. West wind 7 to 10 mph, with gusts as high as 24 mph. Chance of precipitation is 20%."
+  "shortForecast": "Clear",
+  "name": "Tonight",
+  "detailedForecast": "Clear, with a low around 48. West wind 2 to 6 mph, with gusts as high as 23 mph."
 }
