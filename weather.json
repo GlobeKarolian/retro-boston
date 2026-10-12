@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-11T20:12:15.134778+00:00",
-  "temperature": 61,
+  "lastUpdated": "2026-10-12T00:29:02.717201+00:00",
+  "temperature": 53,
   "temperatureUnit": "F",
-  "shortForecast": "Rain Showers Likely",
-  "name": "This Afternoon",
-  "detailedForecast": "Rain showers likely. Cloudy, with a high near 61. Southeast wind around 5 mph. Chance of precipitation is 70%. New rainfall amounts less than a tenth of an inch possible."
+  "shortForecast": "Rain",
+  "name": "Tonight",
+  "detailedForecast": "Rain and patchy fog before 2am, then rain showers likely and patchy fog between 2am and 5am, then patchy fog and a slight chance of rain showers. Cloudy, with a low around 53. Northeast wind 5 to 8 mph. Chance of precipitation is 100%. New rainfall amounts between a half and three quarters of an inch possible."
 }
