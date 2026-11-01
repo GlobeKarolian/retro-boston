@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-01T07:27:44.390504+00:00",
-  "temperature": 33,
+  "lastUpdated": "2026-11-01T15:00:33.333641+00:00",
+  "temperature": 59,
   "temperatureUnit": "F",
-  "shortForecast": "Clear",
-  "name": "Overnight",
-  "detailedForecast": "Clear, with a low around 33. Northwest wind around 1 mph."
+  "shortForecast": "Sunny",
+  "name": "Today",
+  "detailedForecast": "Sunny, with a high near 59. West wind around 8 mph."
 }
