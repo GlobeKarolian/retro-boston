@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-31T21:27:18.462388+00:00",
-  "temperature": 55,
+  "lastUpdated": "2026-11-01T01:03:49.018812+00:00",
+  "temperature": 30,
   "temperatureUnit": "F",
-  "shortForecast": "Sunny",
-  "name": "This Afternoon",
-  "detailedForecast": "Sunny, with a high near 55. Northwest wind around 3 mph."
+  "shortForecast": "Clear",
+  "name": "Tonight",
+  "detailedForecast": "Clear, with a low around 30. Northwest wind around 1 mph."
 }
