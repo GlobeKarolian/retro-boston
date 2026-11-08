@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-08T07:14:50.564619+00:00",
-  "temperature": 43,
+  "lastUpdated": "2026-11-08T15:04:56.963812+00:00",
+  "temperature": 59,
   "temperatureUnit": "F",
-  "shortForecast": "Rain Showers Likely",
-  "name": "Overnight",
-  "detailedForecast": "Rain showers likely before 5am. Mostly cloudy, with a low around 43. West wind around 10 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
+  "shortForecast": "Mostly Sunny",
+  "name": "Today",
+  "detailedForecast": "Mostly sunny, with a high near 59. Northwest wind 10 to 16 mph, with gusts as high as 31 mph."
 }
