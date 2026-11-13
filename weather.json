@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-13T16:13:37.224314+00:00",
+  "lastUpdated": "2026-11-13T22:32:46.160869+00:00",
   "temperature": 42,
   "temperatureUnit": "F",
-  "shortForecast": "Chance Light Rain",
-  "name": "Today",
-  "detailedForecast": "A chance of rain before 1pm. Mostly cloudy, with a high near 42. North wind 6 to 12 mph, with gusts as high as 26 mph. Chance of precipitation is 40%."
+  "shortForecast": "Cloudy",
+  "name": "This Afternoon",
+  "detailedForecast": "Cloudy, with a high near 42. North wind around 5 mph."
 }
