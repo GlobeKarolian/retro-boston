@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-13T22:32:46.160869+00:00",
-  "temperature": 42,
+  "lastUpdated": "2026-11-14T03:07:16.893871+00:00",
+  "temperature": 30,
   "temperatureUnit": "F",
-  "shortForecast": "Cloudy",
-  "name": "This Afternoon",
-  "detailedForecast": "Cloudy, with a high near 42. North wind around 5 mph."
+  "shortForecast": "Mostly Cloudy",
+  "name": "Tonight",
+  "detailedForecast": "Mostly cloudy, with a low around 30. Northwest wind around 5 mph."
 }
