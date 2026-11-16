@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-16T01:56:50.293778+00:00",
-  "temperature": 31,
+  "lastUpdated": "2026-11-16T09:31:05.178237+00:00",
+  "temperature": 33,
   "temperatureUnit": "F",
-  "shortForecast": "Partly Cloudy",
-  "name": "Tonight",
-  "detailedForecast": "Partly cloudy, with a low around 31. Northwest wind around 6 mph."
+  "shortForecast": "Clear",
+  "name": "Overnight",
+  "detailedForecast": "Clear, with a low around 33. Northwest wind around 5 mph."
 }
