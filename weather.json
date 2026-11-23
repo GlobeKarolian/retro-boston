@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-23T00:13:42.567853+00:00",
+  "lastUpdated": "2026-11-23T08:56:49.282092+00:00",
   "temperature": 53,
   "temperatureUnit": "F",
-  "shortForecast": "Heavy Rain",
-  "name": "Tonight",
-  "detailedForecast": "Rain and patchy fog and a slight chance of thunderstorms before midnight, then rain likely and a chance of thunderstorms and patchy fog between midnight and 1am, then rain and patchy fog and a slight chance of thunderstorms between 1am and 2am, then rain and a chance of thunderstorms and patchy fog between 2am and 3am, then rain and patchy fog and a slight chance of thunderstorms. Some of the storms could produce heavy rain. Cloudy, with a low around 53. Northeast wind 2 to 9 mph, with gusts as high as 21 mph. Chance of precipitation is 90%. New rainfall amounts between 1 and 2 inches possible."
+  "shortForecast": "Patchy Fog",
+  "name": "Overnight",
+  "detailedForecast": "Patchy fog and a slight chance of rain. Cloudy, with a low around 53. North wind around 10 mph, with gusts as high as 24 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
 }
